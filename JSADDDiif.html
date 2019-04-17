@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <script>
+        function sum() 
+            {
+        var a = parseInt(document.getElementById('textbox1').value);
+        var b = parseInt(document.getElementById('textbox2').value);
+        var c = a+b;
+        alert(c); 
+            }
+        function diff() 
+            {
+        var a = parseInt(document.getElementById('textbox1').value);
+        var b = parseInt(document.getElementById('textbox2').value);
+        var c = a-b;
+        alert(c); 
+            }
+        function prod() 
+            {
+        var a = parseInt(document.getElementById('textbox1').value);
+        var b = parseInt(document.getElementById('textbox2').value);
+        var c = a*b;
+        alert(c); 
+            }
+        function div() 
+            {
+        var a = parseInt(document.getElementById('textbox1').value);
+        var b = parseInt(document.getElementById('textbox2').value);
+        var c = a/b;
+        alert(c); 
+            }
+        </script>
+        
+        <input type="text" id="textbox1">
+        <input type="text" id="textbox2">
+        <input type="button" value="add" onclick="sum()">
+        <input type="button" value="diff" onclick="diff()">
+        <input type="button" value="prod" onclick="prod()">
+        <input type="button" value="div" onclick="div()">
+    </body>
+</html>
